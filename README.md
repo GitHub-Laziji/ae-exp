@@ -5,18 +5,9 @@
 
 ## trans.jsx
 ### 弹性变化
-- 函数原型
-
-`elastic(freq, decay)`
-
-- 使用条件
-
-关键帧数>=2
-
-- 适用属性
-
-通用
-
+- 函数原型 `elastic(freq, decay)`
+- 使用条件 `关键帧数>=2`
+- 适用属性 `全部`
 - 参数说明
 
 | 参数名 | 类型 | 默认值 | 说明 |
@@ -25,24 +16,16 @@
 | `decay` | `Number` | `4`| 衰退率 |
 
 - 示例
+
 ```js
 exp = eval(footage("trans.jsx").sourceText)
 exp.elastic(6, 4)
 ```
 
 ### 重力反弹
-- 函数原型
-
-`gravityRebound(e, g, freq)`
-
-- 使用条件
-
-关键帧数==2
-
-- 适用属性
-
-位置
-
+- 函数原型 `gravityRebound(e, g, freq)`
+- 使用条件 `关键帧数==2`
+- 适用属性 `位置`
 - 参数说明
 
 | 参数名 | 类型 | 默认值 | 说明 |
@@ -52,6 +35,7 @@ exp.elastic(6, 4)
 | `freq` | `Number` | `9`| 次数 |
 
 - 示例
+
 ```js
 exp = eval(footage("trans.jsx").sourceText)
 exp.gravityRebound(0.7, 1000, 9)
