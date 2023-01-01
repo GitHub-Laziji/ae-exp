@@ -3,7 +3,7 @@
 使用方式: AE导入所需jsx文件
 
 
-## trans.jsx
+## 函数说明 `trans.jsx`
 ### 弹性变化
 - 函数原型 `elastic(freq, decay)`
 - 使用条件 `关键帧数>=2`
